@@ -6,6 +6,7 @@
 class Solution:
     def deleteDuplication(self, pHead):
         # write code here
+		# leetcode 82 83
         if pHead is None or pHead.next is None:
             return pHead
         first = ListNode(-1)

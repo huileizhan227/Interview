@@ -6,6 +6,7 @@ class TreeNode:
         self.right = None
 class Solution:
     # 返回构造的TreeNode根节点
+	# leetcode 105 106 889
     def reConstructBinaryTree(self, pre, tin):
         # write code here
         if not pre and not tin:

@@ -10,6 +10,7 @@ class Solution:
     
     def IsBalanced_Solution(self, pRoot):
         # write code here
+		# leetcode 110
         self.getDepth(pRoot)
         return self.flag
     

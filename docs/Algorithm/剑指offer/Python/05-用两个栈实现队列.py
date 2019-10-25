@@ -6,6 +6,7 @@ class Solution:
         
     def push(self, node):
         # write code here
+		# leetcode 232
         self.stack1.append(node)
         
     def pop(self):

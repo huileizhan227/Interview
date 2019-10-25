@@ -2,6 +2,7 @@
 class Solution:
     def IsPopOrder(self, pushV, popV):
         # write code here
+		# leetcode 946
         if pushV == [] or popV == []:
             return False
         

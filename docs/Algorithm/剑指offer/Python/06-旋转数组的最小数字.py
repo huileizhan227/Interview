@@ -2,6 +2,7 @@
 class Solution:
     def minNumberInRotateArray(self, rotateArray):
         # write code here
+		# leetcode 33 81 82
         if len(rotateArray) == 0:
             return 0
         front = 0
@@ -13,14 +14,14 @@ class Solution:
         else:
             while (rear - front) > 1: 
                 mid = (front + rear) // 2
-                if rotateArray[front] == rotateArray[rear] == rotateArray[mid]:
+                if rotateArray[mid] >= rotateArray[front]:
+                    front = mid
+                elif rotateArray[mid] <= rotateArray[rear]:
+                    rear = mid
+                elif rotateArray[front] == rotateArray[rear] == rotateArray[mid]:
                     for i in range(1, len(rotateArray)):
                         if rotateArray[i] < minVal:
                             minVal = rotateArray[i]
                             rear = i
-                elif rotateArray[mid] >= rotateArray[front]:
-                    front = mid
-                elif rotateArray[mid] <= rotateArray[rear]:
-                    rear = mid
             minVal = rotateArray[rear]
             return minVal

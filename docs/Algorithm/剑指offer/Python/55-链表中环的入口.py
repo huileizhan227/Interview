@@ -6,6 +6,7 @@
 class Solution:
     def EntryNodeOfLoop(self, pHead):
         # write code here
+		# leetcode 141 142
         meetNode = self.MeetNode(pHead)
         if not meetNode:
             return None

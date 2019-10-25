@@ -6,8 +6,10 @@
 #         self.right = None
 class Solution:
     # 返回从上到下每个节点值列表，例：[1,2,3]
+	# leetcode 102
     def PrintFromTopToBottom(self, root):
         # write code here
+		# leetcode 102
         if root is None:
             return []
         queue = []

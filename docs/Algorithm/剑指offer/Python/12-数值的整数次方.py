@@ -1,6 +1,7 @@
 class Solution:
     def Power(self, base, exponent):
         # write code here
+		# leetcode 50
         try:
             ret = self.power_value(base, abs(exponent))
             if exponent < 0:

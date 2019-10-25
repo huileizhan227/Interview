@@ -2,6 +2,7 @@
 class Solution:
     def GetNumberOfK(self, data, k):
         # write code here
+		# leetcode 34
         if not data:
             return 0
         if self.GetLastK(data, k) == -1 and self.GetFirstK(data, k) == -1:

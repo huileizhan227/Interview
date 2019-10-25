@@ -2,6 +2,8 @@
 class Solution:
     def Permutation(self, ss):
         # write code here
+		# leetcode 46 47
+		# 组合 leetcode 40
         if not ss:
             return []
         if len(ss) == 1:

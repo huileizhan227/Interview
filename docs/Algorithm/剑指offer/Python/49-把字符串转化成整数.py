@@ -2,6 +2,7 @@
 class Solution:
     def StrToInt(self, s):
         # write code here
+		# leetcode 8
         flag = False
         if not s or len(s) < 1:
             return 0

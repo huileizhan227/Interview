@@ -8,6 +8,7 @@ class Solution:
     # 返回 RandomListNode
     def Clone(self, pHead):
         # write code here
+		# leetcode 138
         if not pHead:
             return None
         pNode = pHead

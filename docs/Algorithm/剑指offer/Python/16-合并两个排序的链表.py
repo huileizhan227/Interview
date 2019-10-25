@@ -5,6 +5,7 @@
 #         self.next = None
 class Solution:
     # 返回合并后列表
+	# leetcode 21 23
     def Merge(self, pHead1, pHead2):
         # write code here
         if pHead1 == None:

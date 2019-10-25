@@ -6,6 +6,7 @@
 #         self.right = None
 class Solution:
     # 返回镜像树的根节点
+	# leetcode 101
     def Mirror(self, root):
         # write code here
         if root == None:

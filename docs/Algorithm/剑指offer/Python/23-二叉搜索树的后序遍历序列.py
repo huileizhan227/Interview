@@ -2,6 +2,7 @@
 class Solution:
     def VerifySquenceOfBST(self, sequence):
         # write code here
+		# leetcode 145 144 94
         if sequence == []:
             return False
         

@@ -7,6 +7,7 @@
 class Solution:
     def HasSubtree(self, pRoot1, pRoot2):
         # write code here
+		# leetcode 572
         result = False
         if pRoot1 != None and pRoot2 != None:
             if pRoot1.val == pRoot2.val:

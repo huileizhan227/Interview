@@ -7,6 +7,7 @@
 class Solution:
     def isSymmetrical(self, pRoot):
         # write code here
+		# leetcode 101
         return self.selfIsSym(pRoot,pRoot)
     
     def selfIsSym(self,root1,root2):

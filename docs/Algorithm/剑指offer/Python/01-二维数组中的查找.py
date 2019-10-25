@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 class Solution:
     # array 二维列表
+	# leetcode 74
     def Find(self, target, array):
         # write code here
         if array == []:

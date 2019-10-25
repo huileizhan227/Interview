@@ -6,6 +6,8 @@
 class Solution:
     def FindFirstCommonNode(self, pHead1, pHead2):
         # write code here
+		# leetcode 160
+		# 二叉树的最低公共结点 leetcode 236
         if not pHead1 or not pHead2:
             return None
         

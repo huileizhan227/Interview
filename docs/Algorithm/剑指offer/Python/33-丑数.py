@@ -2,6 +2,7 @@
 class Solution:
     def GetUglyNumber_Solution(self, index):
         # write code here
+		# leetcode 263 264
         if not index:
             return 0
         

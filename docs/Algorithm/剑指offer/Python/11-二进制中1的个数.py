@@ -1,6 +1,7 @@
 class Solution:
     def NumberOf1(self, n):
         # write code here
+		# leetcode 191
         count = 0
         if n < 0:
             n = n & 0xffffffff

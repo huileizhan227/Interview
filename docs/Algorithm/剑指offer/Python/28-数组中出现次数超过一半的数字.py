@@ -21,11 +21,12 @@ class Solution:
         return result
             
     def CheckNoreThanHalf(self, numbers,length,number):
-        times = 0
+		times = 0
         for i in range(length):
             if numbers[i] == number:
                 times += 1
-                
+		# times = numbers.count(number)
+        
         if times*2 <= length:
             return False
         return True
